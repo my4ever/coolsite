@@ -8,7 +8,9 @@ from woman.views import page_not_found
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('captcha/', include('captcha.urls')),
     path('', include('woman.urls')),
+
 
 ]
 

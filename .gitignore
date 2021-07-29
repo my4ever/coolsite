@@ -131,3 +131,6 @@ dmypy.json
 # Media files
 coolsite/media/
 
+# cache
+coolsite/coolsite_cashe/
+
